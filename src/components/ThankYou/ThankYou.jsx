@@ -12,7 +12,7 @@ function ThankYou() {
       <CheckBadgeIcon className="p-2 text-green-600" />
       <h2>Thank you for your feedback!</h2>
       <button
-      data-testid="next"
+        data-testid="next"
         className="border-4 bg-slate-600 text-white hover:bg-slate-400 hover:text-slate-800 rounded-full p-4"
         onClick={returnToHome}
       >

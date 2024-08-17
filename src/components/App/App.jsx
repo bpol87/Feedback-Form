@@ -2,7 +2,6 @@ import React from "react";
 import axios from "axios";
 import "./App.css";
 import { HashRouter as Router, Route } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
 import Feeling from "../Feeling/Feeling.jsx";
 import Understanding from "../Understanding/Understanding.jsx";
 import Support from "../Support/Support.jsx";
@@ -10,7 +9,6 @@ import ThankYou from "../ThankYou/ThankYou.jsx";
 import Review from "../Review/Review.jsx";
 import Comments from "../Comments/Comments.jsx";
 import { ClipboardDocumentListIcon } from "@heroicons/react/16/solid";
-import { Redirect } from "react-router-dom/cjs/react-router-dom.js";
 
 function App() {
   return (
