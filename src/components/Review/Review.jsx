@@ -42,35 +42,36 @@ function Review() {
 
   return (
     <div>
-      f
       <div className="flex flex-col items-center">
         <h2 className="text-2xl font-bold text-gray-900">
           Review Your Feedback
         </h2>
-        <table>
-          <thead>
+        <table className="table-auto border-collapse border-none mt-4 mb-4">
+          <thead className="bg-slate-900 text-white">
             <tr>
-              <th>Feedback</th>
-              <th>Understanding</th>
-              <th>Support</th>
-              <th>Comments</th>
+              <th className="border border-slate-700 pl-4 pr-4">Feeling</th>
+              <th className="border border-slate-700 pl-4 pr-4">
+                Understanding
+              </th>
+              <th className="border border-slate-700 pl-4 pr-4">Support</th>
+              <th className="border border-slate-700 pl-4 pr-4">Comments</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>{a}</td>
-              <td>{b}</td>
-              <td>{c}</td>
-              <td>{d}</td>
+            <tr className="text-center">
+              <td className="border border-slate-700">{a}</td>
+              <td className="border border-slate-700">{b}</td>
+              <td className="border border-slate-700">{c}</td>
+              <td className="border border-slate-700">"{d}"</td>
             </tr>
           </tbody>
         </table>
         <button
           data-testid="next"
           onClick={handleClick}
-          className=" flex flex-row items-center justify-end w-32 border-2 border-slate-400 bg-slate-400 hover:bg-slate-200 rounded-full drop-shadow-lg"
+          className=" flex flex-row items-center justify-end w-40 border-1 border-slate-400 bg-slate-400 hover:bg-slate-900 hover:text-white rounded-full drop-shadow-lg pt-2 pb-2"
         >
-          Next <ArrowRightIcon className="w-6 ml-3 mr-2" />
+          Next <ArrowRightIcon className="w-6 ml-7 mr-2" />
         </button>
       </div>
     </div>

@@ -11,11 +11,11 @@ function Feeling() {
   const submitFeeling = (event) => {
     event.preventDefault();
 
-      dispatch({
-        type: "SET_FEELING",
-        payload: Number(feeling),
-      });
-      history.push("/understanding");
+    dispatch({
+      type: "SET_FEELING",
+      payload: Number(feeling),
+    });
+    history.push("/understanding");
   };
   return (
     <div>
@@ -41,9 +41,9 @@ function Feeling() {
         </div>
         <button
           data-testid="next"
-          className=" flex flex-row items-center justify-end w-32 border-2 border-slate-400 bg-slate-400 hover:bg-slate-200 rounded-full drop-shadow-lg"
+          className=" flex flex-row items-center justify-end w-40 border-1 border-slate-400 bg-slate-400 hover:bg-slate-900 hover:text-white rounded-full drop-shadow-lg pt-2 pb-2"
         >
-          Next <ArrowRightIcon className="w-6 ml-3 mr-2" />
+          Next <ArrowRightIcon className="w-6 ml-7 mr-2" />
         </button>
       </form>
     </div>
