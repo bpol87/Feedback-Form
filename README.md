@@ -11,7 +11,6 @@ This app is a feedback form designed using React and Redux as well as SQL to con
 - Redux.js 
 - Axios 
 - Express 
-- PG
 - Database manager
 
 ### Prerequisites
@@ -19,7 +18,10 @@ This app is a feedback form designed using React and Redux as well as SQL to con
 Link to software that is required before you attempt to start the app (e.g. node, mongo).
 
 - [Node.js](https://nodejs.org/en/)
-- List other prerequisites here
+- [React.js] (https://react.dev/)
+- [Redux.js] (https://redux.js.org/)
+- [Axios] (https://axios-http.com/)
+- [Express] (https://expressjs.com/)
 
 ### Installing
 
