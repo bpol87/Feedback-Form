@@ -31,6 +31,7 @@ Steps to get the development environment running.
 2. Open up your editor of choice and run an `npm install`
 3. Using your preferred database manager - use the provided SQL file to set up the database that tracks your tasks and their status.
 4. Run `npm run server` in your terminal
+6. Run `npm run client` in another window of your terminal.
 5. Navigate to http://localhost:5001/
 (To navigate to the Admin page, go to http://localhost:5001/admin)
 
